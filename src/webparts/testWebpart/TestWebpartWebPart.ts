@@ -22,7 +22,7 @@ export default class TestWebpartWebPart extends BaseClientSideWebPart<ITestWebpa
           <div class="${ styles.row }">
             <div class="${ styles.column }">
               <span class="${ styles.title }">First app configured for CI/CD process!</span>
-              <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts.</p>
+              <p class="${ styles.subTitle }">Automating deployment process.</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
               <a href="https://aka.ms/spfx" class="${ styles.button }">
                 <span class="${ styles.label }">Learn more</span>
